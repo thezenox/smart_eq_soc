@@ -1,0 +1,166 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: Unnamed9933 
+BO_ 535 speed: 8 Unnamed9933
+   SG_ speedSig35214 : 47|8@0- (1,0) [0|1] "" Vector__XXX
+
+BO_ 1581 charger: 8 Unnamed9933
+   SG_ charge_power : 31|8@0+ (0.3,0) [0|1] "" Vector__XXX
+   SG_ charge_power6 : 15|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ charge_power626_temp? : 7|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ charge_soc? : 39|16@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 144 steering: 8 Unnamed9933
+   SG_ steering_angle : 47|16@0+ (1,-32752) [0|1] "" Vector__XXX
+   SG_ steeringSig33916 : 23|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1495 vehicle_speed: 8 Unnamed9933
+   SG_ speed : 7|16@0+ (0.01,0) [0|1] "" Vector__XXX
+   SG_ odo : 23|32@0+ (0.000621371,0) [0|1] "" Vector__XXX
+
+BO_ 1620 SOC2: 8 Unnamed9933
+   SG_ SOC2 : 31|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ SOC259 : 47|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ SOC25991_temp? : 63|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1066 temp1: 8 Unnamed9933
+   SG_ temp1Sig202 : 39|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 509 power: 8 Unnamed9933
+   SG_ power_display : 40|16@1+ (0.00390625,-80.78) [0|1] "" Vector__XXX
+   SG_ powerSig484 : 7|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1070 hv_batt: 8 Unnamed9933
+   SG_ hv_volt : 30|15@0+ (0.015625,0) [0|1] "" Vector__XXX
+   SG_ range : 6|15@0+ (0.0037,0) [0|1] "" Vector__XXX
+   SG_ ac_voltage : 47|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1015 speed_mph: 8 Unnamed9933
+   SG_ speed_mph : 31|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ transmission : 7|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 811 wild: 8 Unnamed9933
+
+BO_ 679 rpm: 8 Unnamed9933
+   SG_ rpm1 : 7|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ rpm2 : 23|16@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1081 inverter_current: 8 Unnamed9933
+   SG_ current : 7|16@0+ (0.0133333,-213.333) [0|1] "" Vector__XXX
+
+BO_ 1737 HV_voltage: 8 Unnamed9933
+   SG_ voltage_10s : 39|16@0+ (0.1,0) [0|1] "" Vector__XXX
+
+BO_ 378 motor_current: 8 Unnamed9933
+   SG_ motor_current : 55|16@0+ (0.1,-1270.7) [0|1] "" Vector__XXX
+
+BO_ 532 charger2: 8 Unnamed9933
+   SG_ chare_current : 15|16@0+ (1,-2) [0|1] "" Vector__XXX
+
+BO_ 1218 Charger2: 8 Unnamed9933
+   SG_ Charger2Sig327 : 7|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ Charger2Sig3277 : 10|11@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 302 IMU: 8 Unnamed9933
+   SG_ IMUSig34 : 7|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ IMUSig3467 : 15|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ IMUSig346784 : 31|16@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 198 steering2: 8 Unnamed9933
+   SG_ steering2Sig278 : 7|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ steering2Sig27870 : 23|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ steering2Sig2787069 : 63|8@0- (1,0) [0|1] "" Vector__XXX
+
+BO_ 390 speed2: 8 Unnamed9933
+   SG_ speed2Sig39 : 7|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ speed2Sig3943 : 23|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ speed2Sig394352 : 39|8@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ speed2Sig39435215 : 47|16@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1591 ??: 8 Unnamed9933
+   SG_ ??Sig423 : 7|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ ??Sig42374 : 39|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1592 ???2: 8 Unnamed9933
+   SG_ ???2Sig217 : 15|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ power? : 7|8@0+ (1,-80) [0|1] "" Vector__XXX
+   SG_ ???2Sig21764 : 31|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1606 odo?: 8 Unnamed9933
+   SG_ odo?Sig278 : 23|24@0+ (0.05,0) [0|1] "" Vector__XXX
+   SG_ odo?Sig386 : 55|16@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ odo?Sig38680 : 15|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1616 ??: 8 Unnamed9933
+   SG_ ??Sig77 : 23|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1627 ???3: 8 Unnamed9933
+   SG_ ???3Sig142 : 31|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2047 ???4: 8 Unnamed9933
+   SG_ ???4Sig84 : 31|16@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 848 time: 8 Unnamed9933
+   SG_ time? : 15|24@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 951 temp2?: 8 Unnamed9933
+   SG_ temp2?Sig164 : 7|8@0+ (1,-40) [0|1] "" Vector__XXX
+
+BO_ 1624 charge?: 8 Unnamed9933
+   SG_ charge?Sig168 : 47|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 914 temp4?: 8 Unnamed9933
+   SG_ temp4?Sig181 : 47|8@0+ (1,0) [0|1] "" Vector__XXX
+
+CM_ SG_ 509 power_display "1/256";
+CM_ SG_ 1015 transmission "32_=_D,_16_=_N_,_8==_R/P?";
+CM_ SG_ 378 motor_current "reverse_=_negative";
+CM_ SG_ 532 chare_current "A_-_stimmt_nicht?";
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
+BA_DEF_DEF_ "matchingcriteria" 0;
+BA_DEF_DEF_ "filterlabeling" 1;
+BA_ "GenMsgForegroundColor" BO_ 144 "#000000";
+BA_ "GenMsgForegroundColor" BO_ 1070 "#000000";
